@@ -1,0 +1,21 @@
+government Fissionite
+	swizzle 5
+	language "Illectrae"
+	color 0.58 0.827 0.969
+
+	"player reputation" 1
+
+government Photonite
+	swizzle 0
+	language "Illectrae"
+	color 0.98 0.937 0.561
+
+	"player reputation" 1
+
+government Carbonite
+	swizzle 1
+	language "Illectrae"
+	color 0.98 0.506 0.459
+
+	"player reputation" 1
+

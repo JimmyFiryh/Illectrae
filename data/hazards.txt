@@ -1,0 +1,13 @@
+hazard "Wrath of Illectron"
+	duration 600 2000
+	strength 1 5
+	"system-wide"
+	"environmental effect" "ion hazard" 30
+	weapon
+		"shield damage" 10
+		"fuel damage" 0.167
+		"ion damage" 0.8
+		"disruption damage" 1
+		"slowing damage" 0.01
+		"dropoff modifier" 1
+

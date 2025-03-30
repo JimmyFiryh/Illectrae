@@ -3,11 +3,7 @@ Upstream-Name: {{your plugin name here}}
 Upstream-Contact: {{your name here}} <{{your email here}}>
 Source: {{your plugin github url here}}
 
-Files: *
-Copyright: {{your name and email again}}
-
 Files:
  icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
+Copyright: Jack George
 License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!

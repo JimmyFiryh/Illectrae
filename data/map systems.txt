@@ -1,0 +1,974 @@
+galaxy "label illectrae"
+	pos 310 750
+	sprite label/illectrae
+
+system Liira-Haya
+	pos 81.444 849.278
+	government Uninhabited
+	attributes predecessor "tangled shroud"
+	habitable 3000
+	haze _menu/haze-tear
+	object
+		sprite star/k-supergiant
+		period 10
+	object
+		sprite planet/lava7-b
+		distance 1200
+		period 100
+	object
+		sprite planet/desert3-b
+		distance 2000
+		period 150
+	object
+		sprite planet/gas6
+		distance 6000
+		period 250
+	object "Illectrons Reach"
+		sprite planet/wormhole-red
+		distance 4500
+		offset 30
+
+system Laesin
+	pos 188.426 686.722
+	government Uninhabited
+	attributes illectron
+	habitable 1200
+	"jump range" 50
+	haze _menu/haze-illectrae
+	link Jraski
+	asteroids "small rock" 10 1
+	asteroids "small metal" 6 1
+	asteroids "large rock" 10 0.5
+	asteroids "large metal" 10 0.5
+	minables titanium 5 0.75
+	hazard "Wrath of Illectron" 7500
+	object
+		sprite star/f0
+		distance 50
+		period 10
+		offset 50
+	object
+		sprite star/g3
+		distance 75
+		period 10
+		offset 230
+	object "Illectrons Reach"
+		sprite planet/wormhole-red
+		distance 4500
+		offset 210
+	object
+		sprite planet/gas5-hot
+		distance 400
+		period 90
+	object
+		sprite planet/forest0
+		distance 1000
+		period 140
+		object
+			sprite planet/dust2
+				scale 0.5
+			distance 150
+			period 25
+	object
+		sprite planet/ice6
+		distance 2500
+		period 250
+		object
+			sprite planet/dust7
+				scale 0.5
+			distance 200
+			period 40
+
+system Jraski
+	pos 155.472 659.088
+	government Uninhabited
+	attributes illectron
+	habitable 950
+	"jump range" 50
+	haze _menu/haze-illectrae
+	link Ithercia
+	link Laesin
+	link Pontask
+	asteroids "medium rock" 10 0.8
+	asteroids "small metal" 10 1
+	asteroids "large metal" 10 0.5
+	minables uranium 2 0.8
+	hazard "Wrath of Illectron" 7500
+	object
+		sprite star/o5
+		period 10
+	object
+		sprite planet/desert7
+		distance 800
+		period 100
+	object
+		sprite planet/desert7-b
+		distance 800
+		period 100
+		offset 180
+	object
+		sprite planet/dust8
+		distance 1800
+		period 200
+		object
+			sprite planet/dust4
+				scale 0.6
+			distance 350
+			period 60
+		object
+			sprite planet/dust3-b
+				scale 0.5
+			distance 150
+			period 20
+
+system Pontask
+	pos 230.343 659.097
+	government Uninhabited
+	attributes illectron
+	habitable 5000
+	"jump range" 50
+	haze _menu/haze-illectrae
+	link Ithercia
+	link Jraski
+	asteroids "small rock" 30 3
+	asteroids "medium rock" 20 2
+	asteroids "large rock" 10 1
+	asteroids "small metal" 30 3
+	asteroids "medium metal" 20 2
+	asteroids "large metal" 10 1
+	minables aluminum 15 2
+	minables gold 6 3
+	minables titanium 5 2
+	minables uranium 8 4
+	hazard "Wrath of Illectron" 7500
+	object
+		sprite star/nova-core
+		period 10
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite planet/lava5
+		distance 2000
+		period 230
+		object
+			sprite planet/dust7-b
+				scale 0.5
+			distance 90
+			period 10
+	object
+		sprite planet/ice12
+		distance 10000
+		period 1230
+
+system Ithercia
+	pos 242.306 623.765
+	government Uninhabited
+	attributes illectron
+	"jump range" 50
+	haze _menu/haze-illectrae
+	link Illion
+	link Jraski
+	link Pontask
+	asteroids "small metal" 10 5
+	asteroids "medium metal" 20 1.5
+	asteroids "large metal" 10 1
+	minables aluminum 3 1.5
+	minables silver 2 1.2
+	hazard "Wrath of Illectron" 6000
+	object
+		distance 1000
+		period 140
+		object
+			sprite planet/forest4-b
+				scale 0.7
+			distance 150
+			period 25
+		object
+			sprite planet/ocean7
+				scale 0.81
+			distance 150
+			period 25
+			offset 180
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava5
+		distance 200
+		period 50
+	object
+		sprite planet/rock9-b
+		distance 1900
+		period 300
+	object
+		sprite planet/gas11
+		distance 3700
+		period 500
+		object
+			sprite planet/dust4-b
+				scale 0.9
+			distance 600
+			period 60
+		object
+			sprite planet/rock10
+				scale 0.5
+			distance 450
+			period 40
+		object
+			sprite planet/rock16-b
+			distance 300
+			period 25
+
+system Illion
+	pos 284.231 642.653
+	government Uninhabited
+	attributes illectron
+	habitable 1150
+	"jump range" 50
+	haze _menu/haze-illectrae
+	link Astraea
+	link Ithercia
+	asteroids "small rock" 15 2
+	asteroids "medium rock" 15 1.5
+	asteroids "large rock" 15 1
+	minables neodymium 2 1.5
+	minables tungsten 7 3
+	hazard "Wrath of Illectron" 7500
+	object
+		sprite star/b3
+		distance 70
+		period 10
+	object
+		sprite star/g5
+		distance 50
+		period 10
+		offset 120
+	object
+		sprite star/m8
+		distance 40
+		period 10
+		offset 240
+	object
+		sprite planet/desert6
+		distance 400
+		period 70
+		object
+			sprite planet/dust7
+				scale 0.6
+			distance 120
+			period 30
+	object
+		sprite planet/forest8
+		distance 1300
+		period 220
+	object
+		sprite planet/ice5-b
+		distance 1700
+		period 270
+		object
+			sprite planet/dust7-b
+			distance 200
+			period 50
+	object
+		sprite planet/gas5-b
+		distance 3200
+		period 400
+		object
+			sprite planet/dust1-b
+				scale 0.7
+			distance 450
+			period 100
+		object
+			sprite planet/dust2-b
+				scale 0.7
+			distance 360
+			period 80
+		object
+			sprite planet/rock14
+			distance 270
+			period 60
+
+system Astraea
+	pos 334.708 794.285
+	government Fissionite
+	attributes fissionite
+	habitable 680
+	haze _menu/haze-133
+	link Dreamhome
+	link Helios
+	link Illion
+	link Ra
+	asteroids "small rock" 10 2
+	object
+		sprite star/k3
+		period 10
+	object Radiata
+		sprite planet/forest3
+		distance 700
+		period 160
+		object
+			sprite planet/dust7
+				scale 0.75
+			distance 140
+			period 30
+	object
+		sprite planet/desert4-b
+		distance 340
+		period 90
+	object
+		sprite planet/rock14
+		distance 1200
+		period 290
+	object
+		sprite planet/gas16-b
+		distance 1900
+		period 430
+		object
+			sprite planet/dust0
+			distance 300
+			period 70
+		object
+			sprite planet/dust5
+			distance 200
+			period 30
+
+system Tyche
+	pos 494.56 778.618
+	government Fissionite
+	attributes fissionite
+	habitable 840
+	haze _menu/haze-133
+	link Dreamhome
+	link Heliora
+	asteroids "small rock" 10 2
+	object
+		sprite star/g5
+	object
+		sprite planet/dust2
+		distance 250
+		period 90
+	object Emination
+		sprite planet/forest5
+		distance 700
+		period 210
+	object
+		sprite planet/gas2
+		distance 2100
+		period 560
+		object Kasinki
+			sprite planet/station8
+			distance 350
+			period 100
+	object
+		sprite planet/gas10-b
+		distance 1200
+		period 350
+		object Larinoth
+			sprite planet/ocean3-b
+				scale 0.75
+			distance 230
+			period 80
+	object
+		sprite planet/ice9
+		distance 3100
+		period 750
+
+system Dreamhome
+	pos 426.041 786.84
+	government Photonite
+	attributes photonite
+	haze _menu/haze-133
+	link Astraea
+	link Heliora
+	link Ra
+	link Soot
+	link Tyche
+	object
+		sprite star/a-giant
+		period 10
+	object
+		sprite planet/dyson1
+			scale 0.5
+		distance 70
+		period 30
+	object
+		sprite planet/dyson2
+			scale 0.5
+		distance 70
+		period 30
+		offset 200
+	object
+		sprite planet/lava6
+		distance 300
+		period 90
+	object
+		sprite planet/lava3-b
+		distance 500
+		period 120
+	object
+		sprite planet/dust2
+		distance 750
+		period 200
+		object
+			sprite planet/dust7-b
+				scale 0.5
+			distance 80
+			period 30
+	object Dream-Maker
+		sprite planet/forest1
+		distance 1080
+		period 320
+		object Cadenza
+			sprite planet/station4
+				scale 0.5
+			distance 160
+			period 30
+	object
+		sprite planet/rock19-b
+		distance 1400
+		period 370
+	object
+		sprite planet/rock19
+		distance 1800
+		period 450
+		object
+			sprite planet/dust6
+				scale 0.5
+			distance 120
+			period 45
+	object
+		sprite planet/gas11-b
+		distance 2200
+		period 530
+	object
+		sprite planet/rock18
+		distance 2700
+		period 650
+		object
+			sprite planet/dust5-b
+				scale 0.75
+			distance 120
+			period 60
+		object
+			sprite planet/rock7
+			distance 220
+			period 80
+	object
+		sprite planet/ice5
+		distance 3200
+		period 720
+	object
+		sprite planet/ice12
+		distance 4500
+		period 960
+		object
+			sprite planet/dust4-b
+				scale 0.5
+			distance 100
+			period 20
+
+system Ra
+	pos 377.593 843.433
+	government Photonite
+	attributes photonite
+	habitable 1420
+	haze _menu/haze-133
+	link Astraea
+	link Dreamhome
+	link Faelsto
+	asteroids "small rock" 10 2
+	object
+		sprite star/a-supergiant
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 450
+		period 80
+	object
+		sprite planet/mars
+		distance 780
+		period 140
+	object Sunbathe
+		sprite planet/forest12
+		distance 1320
+		period 230
+		object
+			sprite planet/rock17
+			distance 180
+			period 20
+	object
+		sprite planet/gas1-b
+		distance 2100
+		period 360
+	object
+		sprite planet/ice11
+		distance 3400
+		period 570
+
+system Soot
+	pos 430.556 734.692
+	government Carbonite
+	attributes carbonite
+	habitable 1600
+	haze _menu/haze-133
+	link Dreamhome
+	link Ilaston
+	asteroids "small rock" 10 2
+	asteroids "medium metal" 15 1.5
+	object
+		sprite star/m-giant
+		period 10
+	object Fracombe
+		sprite planet/cloud2-b
+		distance 1400
+		period 300
+	object Drillosk
+		sprite planet/cloud4-b
+		distance 1900
+		period 350
+		object Peritha
+			sprite planet/station17
+				scale 0.5
+			distance 270
+			period 70
+		object
+			sprite planet/dust3-b
+			distance 150
+			period 30
+	object
+		sprite planet/rock20
+		distance 2400
+		period 460
+	object
+		sprite planet/gas9
+		distance 3000
+		period 530
+		object
+			sprite planet/dust8
+				scale 0.5
+			distance 300
+			period 80
+	object
+		sprite planet/gas1
+		distance 3800
+		period 600
+
+system Helios
+	pos 298.01 854.202
+	government Photonite
+	attributes photonite
+	habitable 1050
+	haze _menu/haze-133
+	link Astraea
+	object
+		sprite star/b3
+		distance 70
+		period 10
+		offset 50
+	object
+		sprite star/a8
+		distance 70
+		period 10
+		offset 230
+	object
+		sprite planet/gas4-hot
+		distance 550
+		period 100
+		object
+			sprite planet/dust7-b
+			distance 150
+			period 40
+	object
+		sprite planet/forest5-b
+		distance 900
+		period 210
+	object
+		sprite planet/ice2
+		distance 1700
+		period 320
+
+system Faelsto
+	pos 345.333 889.111
+	government Uninhabited
+	habitable 400
+	haze _menu/haze-133
+	link Nerolib
+	link Ra
+	asteroids "small rock" 30 3
+	asteroids "medium rock" 20 2
+	asteroids "large rock" 10 1
+	asteroids "small metal" 30 3
+	asteroids "medium metal" 20 2
+	asteroids "large metal" 10 1
+	minables lead 25 2
+	minables platinum 2 3
+	object
+		sprite star/m8
+	object
+		sprite planet/cloud5
+		distance 450
+		period 140
+		object
+			sprite planet/rock21
+				scale 0.5
+			distance 170
+			period 40
+	object
+		sprite planet/ice2
+		distance 780
+		period 330
+	object
+		sprite planet/ice7
+		distance 1600
+		period 500
+
+system Ilaston
+	pos 489.111 752.222
+	government Uninhabited
+	haze _menu/haze-133
+	link Soot
+	object
+		sprite star/k5
+		distance 60
+		period 30
+	object
+		sprite star/o-dwarf
+		distance 70
+		period 30
+		offset 120
+	object
+		sprite star/a8
+		distance 70
+		period 30
+		offset 220
+	object
+		sprite planet/lava2
+		distance 200
+		period 90
+	object
+		sprite planet/desert6
+		distance 500
+		period 160
+		object
+			sprite planet/dust0
+			distance 140
+			period 40
+	object
+		sprite planet/rock0-b
+		distance 760
+		period 230
+	object
+		sprite planet/rock18
+		distance 1100
+		period 300
+		object
+			sprite planet/dust7
+			distance 130
+			period 50
+		object
+			sprite planet/cloud6
+				scale 0.25
+			distance 200
+			period 80
+	object
+		sprite planet/gas0
+		distance 2100
+		period 410
+		object
+			sprite planet/ice7
+			distance 480
+			period 120
+		object
+			sprite planet/ice4
+				scale 0.75
+			distance 270
+			period 50
+		object
+			sprite planet/desert4-b
+			distance 380
+			period 60
+	object
+		sprite planet/ice5
+		distance 3000
+		period 650
+	object
+		sprite planet/ice0
+			scale 0.75
+		distance 5000
+		period 1200
+
+system Nerolib
+	pos 391.389 936.667
+	government Uninhabited
+	habitable 700
+	haze _menu/haze-133
+	link Faelsto
+	minables aluminum 12 4
+	minables copper 9 3
+	object
+		sprite star/g3
+	object
+		sprite planet/rock17
+		distance 300
+		period 100
+	object
+		sprite planet/gas10-hot
+		distance 750
+		period 220
+		object
+			sprite planet/cloud6
+				scale 0.5
+			distance 250
+			period 100
+	object
+		sprite planet/ice1-b
+		distance 1600
+		period 340
+
+system Heliora
+	pos 478.222 825.667
+	government Uninhabited
+	habitable 18000
+	haze _menu/haze-133
+	link Dreamhome
+	link Tyche
+	minables uranium 2 1
+	minables lead 12 1
+	object
+		sprite star/neutron-core
+	object
+		sprite star/neutron
+	object
+		sprite planet/lava1-b
+		distance 2100
+		period 200
+	object
+		sprite planet/desert2-b
+		distance 2600
+		period 400
+
+system Olisto
+	pos 354.973 1011.436
+	government Uninhabited
+	habitable 3000
+	"jump range" 90
+	haze _menu/haze-red
+	object
+		sprite star/carbon-core
+	object
+		sprite star/carbon
+	object
+		sprite planet/lava2
+		distance 1400
+		period 300
+	object
+		sprite planet/rock12-b
+		distance 2200
+		period 430
+		object
+			sprite planet/dust5-b
+				scale 0.6
+			distance 140
+			period 30
+	object
+		sprite planet/gas13-b
+		distance 4500
+		period 760
+
+system "Shroda Desnk"
+	pos 211.718 1047.931
+	government Quarg
+	attributes ringworld
+	arrival 700
+	habitable 700
+	link Kaltop
+	link Ontos-Haesii
+	object
+		sprite star/g3
+		period 10
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 20
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 40
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 60
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 80
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 100
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 120
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 140
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 160
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 180
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 200
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 220
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 240
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 260
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 280
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 300
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 320
+	object "Shroud Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 340
+
+system Kaltop
+	pos 268.384 1052.93
+	government Uninhabited
+	habitable 600
+	link Ontos-Haesii
+	link "Shroda Desnk"
+	asteroids "small rock" 10 2
+	object
+		sprite star/g5
+	object
+		sprite planet/rock10-b
+		distance 200
+		period 90
+	object
+		sprite planet/ocean0-b
+		distance 550
+		period 200
+	object
+		sprite planet/ice8-b
+		distance 1200
+		period 400
+		object
+			sprite planet/dust6
+				scale 0.25
+			distance 70
+			period 50
+
+system Ontos-Haesii
+	pos 201.903 1081.079
+	government Quarg
+	attributes quarg
+	habitable 700
+	link Kaltop
+	link "Shroda Desnk"
+	object
+		sprite star/g3
+	object "Quarg Station"
+		sprite planet/station0
+		distance 812
+		period 349.82
+	object
+		sprite planet/lava2
+		distance 812
+		period 349.82
+		offset 180
+	object
+		sprite planet/rock18-b
+		distance 3000
+		period 600
+		object
+			sprite planet/dust4-b
+				scale 0.75
+			distance 120
+			period 80
+	object
+		sprite planet/cloud8-b
+		distance 1600
+		period 450
+
+system Kiiron-Mava
+	pos 108.959 1108.865
+	government Uninhabited
+	attributes predecessor "tangled shroud"
+	habitable 10
+	"jump range" 90
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-y
+	object
+		sprite planet/ice4
+		distance 1500
+		period 200
+	object
+		sprite planet/rock16
+		distance 2500
+		period 260
+

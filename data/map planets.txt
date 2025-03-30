@@ -1,0 +1,126 @@
+planet "Illectrons Reach"
+	attributes "requires: quantum keystone"
+	wormhole "Illectrons Reach"
+
+wormhole "Illectrons Reach"
+	mappable
+	link "Liira-Haya" Laesin
+	link Laesin "Liira-Haya"
+	color "wormholes: Ember Waste"
+
+planet Bask
+	attributes photonite
+	landscape
+	description `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Cadenza
+	attributes photonite station
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Dream-Maker
+	attributes photonite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Drillosk
+	attributes carbonite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Emination
+	attributes fissionite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Fracombe
+	attributes carbonite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Kasinki
+	attributes fissionite station
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Larinoth
+	attributes fissionite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Peritha
+	attributes carbonite station
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Radiata
+	attributes fissionite
+	landscape
+	description  `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+
+planet Sunbathe
+	attributes photonite
+	landscape
+	description `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+	
+planet "Shroud Ring"
+	attributes quarg
+	landscape
+	description `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
+	
+planet "Quarg Station"
+	attributes quarg
+	landscape
+	description `buh`
+	spaceport `buh but spaceport`
+	shipyard
+	outfitter
+	tribute
