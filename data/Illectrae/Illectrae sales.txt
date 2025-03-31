@@ -1,0 +1,103 @@
+# Copyright (c) 2025 by Jack George
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+shipyard "Fissionite"
+	"Superfluous"
+	"Mellifluous"
+	"Voracious"
+	"Pernicious"
+	"Loquacious"
+	"Perspicacious"
+
+
+shipyard "Photonite"
+	"Dreambacker"
+	"Dreamexecutioner"
+	"Dreamprotector"
+	"Dreamfighter"
+	"Dreamcrater"
+	"Dreamchaser"
+
+
+shipyard "Carbonite"
+	"Heaver"
+	"Lugger"
+	"Incinerator"
+	"Boiler"
+	"Steamer"
+	"Engorger"
+
+
+outfitter "Fissionite"
+	"Pulsed Plasma Injector"
+	"Pulsed Plasma Injector Turret"
+	`'Rampart' Anti-Missile`
+	`'Arrestor' Missile`
+	`'Arrestor' Missile Rack`
+	`'Arrestor' Missile Launcher`
+	`'Arrestor' Missile Pod`
+	"Radiative Shielding"
+	"Droplet Radiator"
+	"Active Electronically Scanned Array"
+	"Fissionite Fuel Scoop"
+	`'Sanctified' Fission Reactor`
+	`'Consecreated' Fission Reactor`
+	`'Divination' Battery Pack`
+	"Small Nuclear Engine"
+	"Small Electric Pulsed RCS"
+	"Large Nuclear Engine"
+	"Large Electric Pulsed RCS"
+	"Burst Laser Rifle"
+
+
+outfitter "Photonite"
+	"Array Output Beam"
+	"Array Output Beam Turret"
+	"Solar Anti-Missile"
+	`'Dissension' Torpedo`
+	`'Dissension' Torpedo Rack`
+	`'Dissension' Torpedo Launcher`
+	`'Dissension' Torpedo Pod`
+	"Solar Shield Generator"
+	"Solar Radiator"
+	"Active Electronically Scanned Array"
+	"Small External Solar Panel"
+	"Large External Solar Panel"
+	"Solar-Thermal Powerplant"
+	"External Mirror"
+	`'Chimera' Battery`
+	"Xenon Ion Engine"
+	"Xenon Ion Steering"
+	"Solar Rifle"
+
+
+outfitter "Carbonite"
+	"Barrage Autocannon"
+	"Barrage Autocannon Turret"
+	"Automatic Protection System"
+	"APS Dart"
+	"Depleted Uranium Sabot"
+	"Depleted Uranium Sabot Magazine"
+	"Depleted Uranium Sabot Gun"
+	`'FALSTAFF' Shield`
+	"Smokestack"
+	"Active Electronically Scanned Array"
+	"LNG Generator"
+	"Carbonite Fuel Cell"
+	"Shipbourne Coal Powerplant"
+	"Carbonite Battery Pack`
+	"Kerosene Ion Engine"
+	"Kerosene Ion Steering"
+	"Kerosene-Deuterium Afterburner"
+	"Solar Rifle"

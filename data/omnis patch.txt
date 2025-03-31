@@ -1,0 +1,108 @@
+mission "Omnis: Illectrae Planet"
+	invisible
+	landing
+	on offer
+		event "Omnis: Add Illectrae"
+		fail
+	to offer
+		has "omnisStart"
+
+
+event "Omnis: Add Illectrae"
+	system "Omnis"
+		add object " Illectrae"
+			distance 1200
+			offset 0
+			sprite "ship/voracious"
+
+planet " Illectrae"
+	government "Faction"
+	bribe 0
+	description ""
+	port "Settings"
+		recharges all
+		services all
+	shipyard "Illectrae All"
+	outfitter "Illectrae All"
+
+
+planet "Everything "
+	shipyard "Illectrae All"
+	outfitter "Illectrae All"
+
+
+shipyard "Illectrae All"
+	"Superfluous"
+	"Mellifluous"
+	"Voracious"
+	"Pernicious"
+	"Loquacious"
+	"Perspicacious"
+	"Dreambacker"
+	"Dreamexecutioner"
+	"Dreamprotector"
+	"Dreamfighter"
+	"Dreamcrater"
+	"Dreamchaser"
+	"Heaver"
+	"Lugger"
+	"Incinerator"
+	"Boiler"
+	"Steamer"
+	"Engorger"
+
+
+outfitter "Illectrae All"
+	"Pulsed Plasma Injector"
+	"Pulsed Plasma Injector Turret"
+	"Array Output Beam"
+	"Array Output Beam Turret"
+	"Barrage Autocannon"
+	"Barrage Autocannon Turret"
+	`'Rampart' Anti-Missile`
+	"Solar Anti-Missile"
+	"Automatic Protection System"
+	"APS Dart"
+	`'Arrestor' Missile`
+	`'Arrestor' Missile Rack`
+	`'Arrestor' Missile Launcher`
+	`'Arrestor' Missile Pod`
+	`'Dissension' Torpedo`
+	`'Dissension' Torpedo Rack`
+	`'Dissension' Torpedo Launcher`
+	`'Dissension' Torpedo Pod`
+	"Depleted Uranium Sabot"
+	"Depleted Uranium Sabot Magazine"
+	"Depleted Uranium Sabot Gun"
+	"Radiative Shielding"
+	"Solar Shield Generator"
+	`'FALSTAFF' Shield`
+	"Droplet Radiator"
+	"Solar Radiator"
+	"Smokestack"
+	"Active Electronically Scanned Array"
+	"Fissionite Fuel Scoop"
+	`'Sanctified' Fission Reactor`
+	`'Consecreated' Fission Reactor`
+	"Small External Solar Panel"
+	"Large External Solar Panel"
+	"Solar-Thermal Powerplant"
+	"External Mirror"
+	"LNG Generator"
+	"Carbonite Fuel Cell"
+	"Shipbourne Coal Powerplant"
+	`'Divination' Battery Pack`
+	`'Chimera' Battery`
+	"Carbonite Battery Pack`
+	"Small Nuclear Engine"
+	"Small Electric Pulsed RCS"
+	"Large Nuclear Engine"
+	"Large Electric Pulsed RCS"
+	"Xenon Ion Engine"
+	"Xenon Ion Steering"
+	"Kerosene Ion Engine"
+	"Kerosene Ion Steering"
+	"Kerosene-Deuterium Afterburner"
+	"Burst Laser Rifle"
+	"Solar Rifle"
+	"Flechette Thrower"

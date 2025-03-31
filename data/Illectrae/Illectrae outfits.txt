@@ -1,0 +1,442 @@
+# Copyright (c) 2025 by Jack George
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+
+#	Systems
+
+
+outfit "Radiative Shielding"
+	category "Systems"
+	cost 1100000
+	thumbnail "outfit/radiativeshield"
+	"mass" 65
+	"outfit space" -65
+	"energy generation" 1.35
+	"heat generation" 5.7
+	"shield generation" 1.3
+	"shield heat" .8
+	description "A small fission reactor in and of itself, this strange shield generator directly harnesses radiation energy into its emitters, while drawing significantly less power from a ship's main powerplant."
+
+
+outfit "Solar Shield Generator"
+	category "Systems"
+	cost 560000
+	thumbnail "outfit/solarshield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 0.55
+	"shield energy" 0.55
+	"shield heat" 0.3
+	description "If it's possible to make shields dependent on sun strength & distance, do that. If not, make dependent on External Mirrors. Description awaits ability."
+
+
+outfit `"FALSTAFF" Shield`
+	category "Systems"
+	cost 310000
+	thumbnail "outfit/solarshield"
+	"mass" 54
+	"outfit space" -54
+	"shield generation" 0.6
+	"shield energy" 1.4
+	description "Carbonites, heavily reliant on their strong hulls, have made few sore attempts at making effective shield generators. This is one such attempt."
+
+
+#	Cooling
+
+
+outfit "Droplet Radiator"
+	category "Systems"
+	cost 640000
+	thumbnail "outfit/dropletradiator"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 42
+	description "By passing thin mercury droplets between a deployer and reciever on the shadowed side of a ship, heat can be vented quite efficiently and quickly."
+
+
+outfit "Solar Radiator"
+	category "Systems"
+	cost 323000
+	thumbnail "outfit/solarradiator"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 32
+	description "Parallel-sun radiator meant to provide cold loop for Solar-Thermal Powerplant and cool systems onboard Photonite Ships."
+
+
+outfit "Smokestack"
+	category "Systems"
+	cost 323000
+	thumbnail "outfit/smokestack"
+	"mass" 16
+	"outfit space" -16
+	"carbonite powerplant" -1
+	"cooling" 20.5
+	description "This large funnel connects directly to Carbonite powerplants and vents heat directly into space via waste mass ejection."
+
+
+#	Misc
+
+
+outfit "Active Electronically Scanned Array"
+	category "Systems"
+	cost 180000
+	thumbnail "outfit/aesascanner"
+	"mass" 7
+	"outfit space" -7
+	"tactical scan power" 45
+	"outfit scan power" 20
+	"outfit scan efficiency" 10
+	"energy consumption" 0.4
+	"heat generation" 0.3
+	description "In a rare instance of shared Illectrae technology, this outdated technology uses an array of antennae to scan an entire area without any phyiscal moving components."
+
+
+outfit "Fissionite Fuel Scoop"
+	category "Systems"
+	cost 640000
+	thumbnail "outfit/fissionitescoop"
+	"mass" 12
+	"outfit space" -12
+	"ramscoop" 1
+	description "While most illectrae have no need for onboard fuel collection, some Fissionite ships fly into the uninhabited Illectron's Dominion to sacrifice, and need to ensure their timely arrival home."
+
+
+#	Power Generation
+
+
+outfit `'Sanctified' Fission Reactor`
+	category "Power"
+	cost 2000000
+	thumbnail "outfit/sanctifiedreactor"
+	"mass" 70
+	"outfit space" -70
+	"energy generation" 6
+	"heat generation" 31
+	"divination slots" 4
+	description "This atrociously inefficient fission reactor is worshipped by any passing Fissionite. Though small, it provides enough power to successfully run small Fissionite ships."
+
+
+outfit `'Consecrated' Fission Reactor`
+	category "Power"
+	cost 4500000
+	thumbnail "outfit/consecratedreactor"
+	"mass" 130
+	"outfit space" -130
+	"energy generation" 13
+	"heat generation" 58.85
+	"divination slots" 8
+	description "For ships with more power demand than a 'Sanctified' can provide, the Fissionites have an equally inefficient - but larger reactor. Considered a crown jewel, this reactor doubles as a shrine aboard Fissionite ships."
+
+
+outfit "Small External Solar Panel"
+	category "Power"
+	cost 10000
+	thumbnail "outfit/smallphotonitepanel"
+	"mass" 28
+	"outfit space" -10
+	"solar collection" 0.45
+	"solar heat" 0.2
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/smallphotonitepanel"
+	description `Strangely, this small solar panel is designed to be mounted to gun ports aboard Photonite ships. Similarly strangely, only 'Illectron Certified Technicians' were allowed to install it.`
+
+
+outfit "Large External Solar Panel"
+	category "Power"
+	cost 22000
+	thumbnail "outfit/largephotonitepanel"
+	"mass" 84
+	"outfit space" -36
+	"solar collection" 1.75
+	"solar heat" 0.9
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/largephotonitepanel"
+	description `Strangely, this large solar panel is designed to be mounted to gun ports aboard Photonite ships. Similarly strangely, only 'Illectron Certified Technicians' were allowed to install it.`
+
+
+outfit "Solar-Thermal Powerplant"
+	category "Power"
+	cost 1750000
+	thumbnail "outfit/solarthermalpowerplant"
+	"mass" 64
+	"outfit space" -64
+	"energy generation" 9.35
+	"solar heat" -72
+	"heat generation" 72
+	description "By using heat collected directly from the sun via External Mirrors, this powerplant runs a terribly inefficient thermodynamic cycle."
+
+
+outfit "External Mirror"
+	category "Power"
+	cost 15000
+	thumbnail "outfit/photonitemirror"
+	"mass" 24
+	"outfit space" -7
+	"solar heat" 36
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/photonitemirror"
+	description "Collecting heat and energy directly from the sun, Photonites use these gunport-mounted mirror arrays to run various ship systems and weaponry."
+
+
+outfit "LNG Generator"
+	category "Power"
+	cost 120000
+	thumbnail "outfit/lnggenerator"
+	"mass" 46
+	"outfit space" -46
+	"energy generation" 2.8
+	"heat generation" 9.85
+	"carbonite powerplant" 1
+	description "While Carbonite ships rarely have need for small power generators, this provides a good backup source of power for any extra demand a Carbonite Fuel Cell cannot bear."
+
+
+outfit "Carbonite Fuel Cell"
+	category "Power"
+	cost 189000
+	thumbnail "outfit/carbonitefuelcell"
+	"mass" 84
+	"outfit space" -84
+	"energy generation" 5.4
+	"heat generation" 16.1
+	"carbonite powerplant" 1
+	description "This extremely ornate fuel cell works similarly to human designs - albeit significantly worse. Also doubles as a shrine aboard Carbonite ships."
+
+
+outfit "Shipbourne Coal Powerplant"
+	category "Power"
+	cost 1450000
+	thumbnail "outfit/coalpowerplant"
+	"mass" 280
+	"outfit space" -280
+	"energy generation" 26.35
+	"heat generation" 97.35
+	"carbonite powerplant" 4
+	"engorger bay" -1
+	description "A craft as enormous as the Engorger requires a similarly enormous powerplant. In what could likely power an entire city, this coal powerplant produces an enormous amount of power - but terribly inefficiently."
+
+
+#	Batteries
+
+
+outfit `'Divination' Battery Pack`
+	category "Power"
+	cost 68000
+	thumbnail "outfit/divinationbattery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 8200
+	"divination slots" -1
+	description "In stark contrast to the terrible powerplants run by the Fissionites, this exceptional battery pack serves to sustain their systems when high draw is needed. It also provides the reserve for Illectron to sap during sacrifices."
+
+
+outfit `'Chimera' Battery`
+	category "Power"
+	cost 92000
+	thumbnail "outfit/chimerabattery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 14600
+	description "While Photonite ships are quite strong near their stars, adversaries that take advantage of this know that Chimera Batteries can sustain their ships for just long enough to complete a hit-and-run with minimal solar energy."
+
+
+outfit "Carbonite Battery Pack"
+	category "Power"
+	cost 124000
+	thumbnail "outfit/carbonitebattery"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 22100
+	description "This large battery pack serves to augment Carbonite power draw when their ships do... well anything."
+
+
+#	Engines
+
+
+outfit "Small Nuclear Engine"
+	category "Engines"
+	"cost" 1600000
+	thumbnail "outfit/smallfissioniteengine"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 47.75
+	"thrusting energy" 3.2
+	"thrusting heat" 6.35
+	"energy generation" 2
+	"heat generation" 9.9
+	"flare sprite" ""
+	"flare sound" ""
+	description "By containing an entire fission reactor within the engine compartment, this system can effectively and efficiently propel Fissionite ships while generating a small amount of electricity."
+
+
+outfit "Small Electric Pulsed RCS"
+	category "Engines"
+	"cost" 340000
+	thumbnail "outfit/smallfissionitesteering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 637.5
+	"turning energy" 2
+	"turning heat" 1.5
+	"steering flare sprite" ""
+	"steering flare sound" ""
+	description "Because it would be simply too large to include fission reactors for each maneuvering thruster, Fissionites developed this simple pulsed electric thruster array to steer their ships."
+
+
+outfit "Large Nuclear Engine"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/largefissioniteengine"
+	"mass" 106
+	"outfit space" -106
+	"engine capacity" -106
+	"thrust" 164.625
+	"thrusting energy" 10.75
+	"thrusting heat" 24
+	"energy generation" 5.9
+	"heat generation" 20.4
+	"flare sprite" ""
+	"flare sound" ""
+	description "By containing an entire fission reactor within the engine compartment, this system can effectively and efficiently propel Fissionite ships while generating a small amount of electricity."
+
+
+outfit "Large Electric Pulsed RCS"
+	category "Engines"
+	"cost" 340000
+	thumbnail "outfit/largefissionitesteering"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"turn" 1603.5
+	"turning energy" 2.05
+	"turning heat" 5.2
+	"steering flare sprite" ""
+	"steering flare sound" ""
+	description "Because it would be simply too large to include fission reactors for each maneuvering thruster, Fissionites developed this simple pulsed electric thruster array to steer their ships."
+
+
+outfit "Xenon Ion Engine"
+	category "Engines"
+	"cost" 850000
+	thumbnail "outfit/xenonionengine"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 30.625
+	"thrusting energy" 1.85
+	"thrusting heat" 3.75
+	"flare sprite" ""
+	"flare sound" ""
+	description "By passing microscopic amounts of positive xenon ions through a magnetic field, the Couloumb force accelerates Photonite ships by using electricity alone."
+
+
+outfit "Xenon Ion Steering"
+	category "Engines"
+	"cost" 560000
+	thumbnail "outfit/xenonionsteering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 706
+	"turning energy" 1.15
+	"turning heat" 2.3
+	"steering flare sprite" ""
+	"steering flare sound" ""
+	description "By passing microscopic amounts of positive xenon ions through a magnetic field, the Couloumb force steers Photonite ships by using electricity alone."
+
+
+outfit "Kerosene Ion Engine"
+	category "Engines"
+	"cost" 1100000
+	thumbnail "outfit/keroseneionengine"
+	"mass" 110
+	"outfit space" -110
+	"engine capacity" -110
+	"thrust" 186.25
+	"thrusting energy" 11.2
+	"thrusting heat" 29.7
+	"flare sprite" ""
+	"flare sound" ""
+	description "Similar to their Photonite counterparts, Carbonites searched for a propulsion method using primarily electric power. To augment its meager thrust, they injected straight Kerosene, increasing its output."
+
+
+outfit "Kerosene Ion Steering"
+	category "Engines"
+	"cost" 820000
+	thumbnail "outfit/keroseneionsteering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 3170.7
+	"turning energy" 4.5
+	"turning heat" 10.4
+	"steering flare sprite" ""
+	"steering flare sound" ""
+	description "Similar to their Photonite counterparts, Carbonites searched for a propulsion method using primarily electric power. To augment its meager thrust, they injected straight Kerosene, increasing its output."
+
+
+outfit "Kerosene-Deuterium Afterburner"
+	category "Engines"
+	"cost" 520000
+	thumbnail "outfit/keroseneafterburner"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"afterburner thrust" 255.8
+	"afterburner fuel" 0.9
+	"afterburner heat" 54
+	"afterburner effect" "kerosene afterburner"
+	description "To provide even more thrust to the hefty Carbonite ships, engineers decided that dumping even more Kerosene in addition to Deuterium hyperspace fuel would solve the problem."
+
+effect "kerosene afterburner"
+	sprite "effect/"
+	sound "keroseneafterburner"
+
+
+#	H2H
+
+
+outfit "Burst Laser Rifle"
+	category "Hand to Hand"
+	cost 16300
+	thumbnail "outfit/burstlaserrifle"
+	"capture attack" 1
+	"capture defense" 1.3
+	"unplunderable" 1
+	description "This beam rifle works by firing a thumping hymn of laser pulses, vaporizing or liquidating most objects it comes in contact with."
+
+
+outfit "Solar Rifle"
+	category "Hand to Hand"
+	cost 16300
+	thumbnail "outfit/solarrifle"
+	"capture attack" 0
+	"capture defense" 2.7
+	"unplunderable" 1
+	description "This array of mirrors and optics fashioned into a rifle shape connects directly to the defending ship's power reserve, drawing light and heat and directing it at any intruders. As such, it is unable to be used on boarding actions."
+
+
+outfit "Flechette Thrower"
+	category "Hand to Hand"
+	cost 16300
+	thumbnail "outfit/flechettethrower"
+	"capture attack" 0.7
+	"capture defense" 0.9
+	"unplunderable" 1
+	description "This archaic by human standards rifle fires small flechette rounds, proving deadly to any between it and its stopping point."

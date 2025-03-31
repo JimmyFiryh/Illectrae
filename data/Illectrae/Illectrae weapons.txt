@@ -1,0 +1,540 @@
+# Copyright (c) 2025 by Jack George
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+
+outfit "Pulsed Plasma Injector"
+	category "Guns"
+	thumbnail "outfit/plasmainjector"
+	cost 165000
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		"sound" "pulsedplasma"
+		"fire effect" "pulsedplasma fire"
+		"inaccuracy" 3
+		"velocity" 12
+		"random velocity" 1
+		"reload" 60
+		"burst count" 5
+		"burst reload" 3
+		"cluster"
+		"firing heat" 120
+		"firing energy" 110
+		"submunition" "Pulsed Plasma"
+		description "This unique Fissionite weapon draws an enormous amount of power into its local power stores, before releasing it in rapid high frequency bursts of corrosive plasma."
+
+
+outfit "Pulsed Plasma Injector Turret"
+	category "Turrets"
+	thumbnail "outfit/plasmainjectorturret"
+	cost 185000
+	"mass" 20
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		"sound" "pulsedplasma"
+		"hardpoint sprite" "hardpoint/pulsedplasma"
+		"fire effect" "pulsedplasma fire"
+		"inaccuracy" 3
+		"velocity" 12
+		"random velocity" 1
+		"reload" 60
+		"burst count" 5
+		"burst reload" 3
+		"cluster"
+		"turret turn" 3
+		"firing heat" 120
+		"firing energy" 110
+		"submunition" "Pulsed Plasma"
+		description "This unique Fissionite weapon draws an enormous amount of power into its local power stores, before releasing it in rapid high frequency bursts of corrosive plasma."
+
+
+outfit "Pulsed Plasma"
+	weapon
+		sprite "projectile/pulsedplasma"
+		"hit effect" "pulsedplasma hit"
+		"lifetime" 55
+		"random lifetime" 5
+		"shield damage" 180
+		"hull damage" 50
+		"corrosive damage" 5
+		"hit force" 18
+
+
+effect "pulsedplasma fire"
+	sprite "effect/"
+
+
+effect "pulsedplasma hit"
+	sprite "effect/"
+
+
+outfit "Array Output Beam"
+	category "Guns"
+	thumbnail "outfit/arraybeam"
+	cost 210000
+	"mass" 20
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"external mirror" -1
+	weapon
+		"sound" "arraybeam"
+		"hit effect" "arraybeam hit"
+		"inaccuracy" 0.2
+		"velocity" 510
+		"reload" 1
+		"lifetime" 1
+		"firing heat" 2.35
+		"firing energy" 1.2
+		"shield damage"  2.05
+		"hull damage" 3.55
+		description "Photonites are masters of weaponizing stars. They use this weapon to direct solar heat and energy collected from External Mirrors into a focused beam, dealing considerable hull damage. As such, its best paired with its complimentary Riptide missiles to maximize effectiveness against weak Fissionite hulls."
+
+
+outfit "Array Output Beam Turret"
+	category "Turrets"
+	thumbnail "outfit/arraybeamurret"
+	cost 230000
+	"mass" 20
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	"external mirror" -1
+	weapon
+		"sound" "arraybeam"
+		"hit effect" "arraybeam hit"
+		"hardpoint sprite" "hardpoint/arraybeam"
+		"turret turn" 3
+		"inaccuracy" 0.2
+		"velocity" 510
+		"reload" 1
+		"lifetime" 1
+		"firing heat" 2.35
+		"firing energy" 1.2
+		"shield damage"  2.05
+		"hull damage" 3.55
+		description "Photonites are masters of weaponizing stars. They use this weapon to direct solar heat and energy collected from External Mirrors into a focused beam, dealing considerable hull damage. As such, its best paired with its complimentary Riptide missiles to maximize effectiveness against weak Fissionite hulls."
+
+
+effect "arraybeam hit"
+	sprite "effect/"
+
+
+outfit "Barrage Autocannon"
+	category "Guns"
+	thumbnail "outfit/barrageautocannon"
+	cost 280000
+	"mass" 20
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/barrageautocannon"
+		"sound" "barrageautocannon"
+		"fire effect" "barrageautocannon fire"
+		"hit effect" "barrageautocannon hit"
+		"inaccuracy" 1
+		"velocity" 9
+		"reload" 30
+		"firing heat" 80
+		"firing energy" 34
+		"firing force" 120
+		"lifetime" 89
+		"shield damage" 73
+		"hull damage" 81
+		"hit force" 40
+		description "This kinetic Carbonite autocannon is of strange doctrine, firing slow-moving shells at a rapid fire-rate. While good at saturating a battlefield with hazard, it's not particularly good at hitting anything nimble."
+
+
+outfit "Barrage Autocannon Turret"
+	category "Turrets"
+	thumbnail "outfit/plasmainjectorturret"
+	cost 310000
+	"mass" 20
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		sprite "projectile/barrageautocannon"
+		"sound" "barrageautocannon"
+		"hardpoint sprite" "hardpoint/barrageautocannon"
+		"turret turn" 3
+		"hit effect" "barrageautocannon hit"
+		"fire effect" "barrageautocannon fire"
+		"inaccuracy" 1
+		"velocity" 9
+		"reload" 30
+		"firing heat" 80
+		"firing energy" 34
+		"firing force" 120
+		"lifetime" 89
+		"shield damage" 73
+		"hull damage" 81
+		"hit force" 40
+		description "This kinetic Carbonite autocannon is of strange doctrine, firing slow-moving shells at a rapid fire-rate. While good at saturating a battlefield with hazard, it's not particularly good at hitting anything nimble."
+
+
+effect "barrageautocannon fire"
+	sprite "effect/"
+
+
+effect "barrageautocannon hit"
+	sprite "effect/"
+
+
+outfit `'Rampart' Anti-Missile`
+	category "Turrets"
+	cost 160000
+	thumbnail "outfit/rampart antimissile"
+	"mass" 26
+	"outfit space" -26
+	"weapon capacity" -26
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/rampart antimissile"
+		"fire effect" "rampart antimissile"
+		"anti-missile" 6
+		"velocity" 260
+		"lifetime" 1
+		"reload" 2.4
+		"firing heat" 2.56
+		"firing energy" 3.68
+	description "To counter the extremely hazardous Riptide missiles, Fissionites have developed the Rampart Amtimissile system. Effective against swarms, this system aims to protect the weak hulls of Fissionite ships."
+
+
+effect "rampart antimissile"
+	sprite "effect/"
+
+
+outfit "Solar Anti-Missile"
+	category "Turrets"
+	cost 340000
+	thumbnail "outfit/rampart antimissile"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	"external mirror" -1
+	"optical jamming" 4
+	weapon
+		"hardpoint sprite" "hardpoint/solar antimissile"
+		"fire effect" "solar antimissile fire"
+		"die effect" "solar antimissile hit"
+		"anti-missile" 3
+		"velocity" 1200
+		"lifetime" 1
+		"reload" 1
+		"firing heat" 1.85
+		"firing energy" 3.8
+	description "Similar to the Array Output beam, this Photonite Antimissile directs External Mirror energy into a beam designed specifically to take out missiles."
+
+
+effect "solar antimissile fire"
+	sprite "effect/"
+
+
+effect "solar antimissile hit"
+	sprite "effect/"
+
+
+outfit "Automatic Protection System"
+	category "Turrets"
+	cost 260000
+	thumbnail "outfit/aps"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"aps dart capacity" 100
+	weapon
+		"hardpoint sprite" "hardpoint/aps"
+		"fire effect" "aps fire"
+		"hit effect" "aps hit"
+		"ammo" "APS Dart"
+		"anti-missile" 35
+		"velocity" 35
+		"lifetime" 3
+		"reload" 3
+		"firing heat" 0.9
+		"firing energy" 0.35
+		"firing force" 22
+	description "This archaic but effective Carbonite anti-missile uses precise algorithm to fire extremely potent flechette rounds at incoming missiles right before impact, While effective, in a prolonged fight sparse ammo reserves can prove deadly."
+
+
+outfit "APS Dart"
+	category "Ammunition"
+	thumbnail "outfit/apsdart"
+	cost 12
+	mass 0.05
+	"aps dart capacity" -1
+	description "This relatively small flechette dart is a stark departure from typical laser-based Anti-Missile systems. By being a short-range kinetic penetrator, it can do extremely damage to missiles, guaranteeing destruction against all but the most potent missiles.
+
+
+effect "aps fire"
+	sprite "effect/"
+
+
+effect "aps hit"
+	sprite "effect/"
+
+
+outfit `'Arrestor' Missile`
+	category "Ammunition"
+	thumbnail "outfit/arrestormissile"
+	cost 17500
+	mass 0.12
+	"arrestor capacity" -1
+	description "The Arrestor missile is the Fissionite response to fast, agile adversary ships. By bringing nimble opponents to a halt, they can more reliably hit with more potent weaponry."
+
+
+outfit `'Arrestor' Missile Rack`
+	category "Ammunition"
+	thumbnail "outfit/arrestorrack"
+	cost 32050
+	"mass" 8
+	"outfit space" -8
+	"arrestor capacity" 30
+	"ammo" `'Arrestor' Missile`
+	description "While Arrestor Launchers carry a suitable amount of ammunition in their bespoke magazines, for longer excursions Fissionites use these compact missile racks."
+
+
+outfit `'Arrestor' Missile Launcher`
+	category "Secondary Weapons"
+	thumbnail "outfit/arrestorlauncher"
+	cost 430000
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	"arrestor capacity" 60
+	weapon
+		sprite "projectile/arrestor"
+		"sound" "arrestor"
+		"ammo" `'Arrestor' Missile`
+		"fire effect" "arrestor fire"
+		"hit effect" "arrestor impact"
+		"inaccuracy" 1
+		"velocity" 15
+		"reload" 20
+		"cluster"
+		"firing heat" 19
+		"firing energy" 8
+		"firing force" 50
+		"lifetime" 235
+		"random lifetime" 5
+		"turn" 4
+		"homing" 4
+		"optical tracking" 0.6
+		"shield damage" 49
+		"hull damage" 17
+		"slowing damage" 314
+		"hit force" 400
+	description "Speed and agility are the biggest weakness against Fissionite doctine, and this missile aims to put that to rest. By bringing adversary ships down to their speed, they hope to stand a better chance."
+
+
+outfit `'Arrestor' Missile Pod`
+	category "Secondary Weapons"
+	thumbnail "outfit/arrestorpod"
+	cost 320000
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"arrestor capacity" 25
+	weapon
+		sprite "projectile/arrestor"
+		"sound" "arrestor"
+		"ammo" `'Arrestor' Missile`
+		"fire effect" "arrestor fire"
+		"hit effect" "arrestor impact"
+		"inaccuracy" 1
+		"velocity" 15
+		"reload" 30
+		"cluster"
+		"firing heat" 19
+		"firing energy" 8
+		"firing force" 50
+		"lifetime" 235
+		"random lifetime" 5
+		"turn" 4
+		"homing" 4
+		"optical tracking" 0.6
+		"shield damage" 49
+		"hull damage" 17
+		"slowing damage" 314
+		"hit force" 400
+	description "Speed and agility are the biggest weakness against Fissionite doctine, and this missile aims to put that to rest. By bringing adversary ships down to their speed, they hope to stand a better chance."
+	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
+
+
+effect "arrestor fire"
+	sprite "effects/"
+
+
+effect "arrestor impact"
+	sprite "effects/"
+
+
+outfit `'Dissension' Torpedo`
+	category "Ammunition"
+	thumbnail "outfit/dissensionmissile"
+	cost 22000
+	mass 0.15
+	"dissension capacity" -1
+	description "The Dissension torpedo is the Photonite response to heavily shielded adversary ships. By slicing nasty electronic holes in heavy shields, they can punch through with effective hull weaponry."
+
+
+outfit `'Dissension' Torpedo Rack`
+	category "Ammunition"
+	thumbnail "outfit/dissensionrack"
+	cost 42070
+	"mass" 10
+	"outfit space" -10
+	"dissension capacity" 6
+	"ammo" `'Dissension' Torpedo`
+	description "While Dissension Launchers carry a suitable amount of ammunition in their bespoke magazines, for longer excursions Photonites use these compact torpedo racks."
+
+
+outfit `'Dissension' Torpedo Launcher`
+	category "Secondary Weapons"
+	thumbnail "outfit/dissensionlauncher"
+	cost 550000
+	"mass" 33
+	"outfit space" -33
+	"weapon capacity" -33
+	"gun ports" -1
+	"dissension capacity" 12
+	weapon
+		sprite "projectile/dissension"
+		"sound" "dissension"
+		"ammo" `'Dissension' Torpedo`
+		"fire effect" "dissension fire"
+		"hit effect" "dissension impact"
+		"inaccuracy" 1
+		"velocity" 8
+		"reload" 120
+		"cluster"
+		"firing heat" 44
+		"firing energy" 60
+		"firing force" 20
+		"lifetime" 370
+		"turn" 2
+		"homing" 3
+		"radar tracking" 0.7
+		"shield damage" 120
+		"hull damage" 180
+		"disruption damage" 2120
+		"hit force" 210
+	description "Photonite researchers, unable to develop weaponry capable of effectively damaging the heavy shielding of their adversaries' vessels, developed this torpedo as a direct bypass to their weak hulls."
+
+
+outfit `'Dissension' Torpedo Pod`
+	category "Secondary Weapons"
+	thumbnail "outfit/dissensionpod"
+	cost 320000
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	"dissension capacity" 6
+	weapon
+		sprite "projectile/dissension"
+		"sound" "dissension"
+		"ammo" `'Dissension' Torpedo`
+		"fire effect" "dissension fire"
+		"hit effect" "dissension impact"
+		"inaccuracy" 1
+		"velocity" 8
+		"reload" 180
+		"cluster"
+		"firing heat" 44
+		"firing energy" 60
+		"firing force" 20
+		"lifetime" 370
+		"turn" 2
+		"homing" 3
+		"radar tracking" 0.7
+		"shield damage" 120
+		"hull damage" 180
+		"disruption damage" 2120
+		"hit force" 210
+	description "Photonite researchers, unable to develop weaponry capable of effectively damaging the heavy shielding of their adversaries' vessels, developed this torpedo as a direct bypass to their weak hulls."
+	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
+
+
+effect "dissension fire"
+	sprite "effects/"
+
+
+effect "dissension impact"
+	sprite "effects/"
+
+
+outfit "Depleted Uranium Sabot"
+	category "Ammunition"
+	thumbnail "outfit/dusground"
+	cost 11000
+	mass 0.1
+	"sabot capacity" -1
+	description "This sub-caliber munition contains multiple discarding sabot elements surrounding the shell. This allows the otherwise ordinary chemical explosion to fire these incredibly dense darts at extremely high speeds."
+
+
+outfit "Depleted Uranium Sabot Magazine"
+	category "Ammunition"
+	thumbnail "outfit/dusgmagazine"
+	cost 32900
+	"mass" 6
+	"outfit space" -6
+	"sabot capacity" 7
+	"ammo" "Depleted Uranium Sabot"
+	description "While Depleted Uranium Sabot Guns carry a suitable amount of ammunition in their bespoke magazines, for longer excursions Carbonites use these compact magazines."
+
+
+outfit "Depleted Uranium Sabot Gun"
+	category "Secondary Weapons"
+	thumbnail "outfit/dusg"
+	cost 1250000
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"gun ports" -1
+	"sabot capacity" 14
+	weapon
+		sprite "projectile/dusg"
+		"sound" "dusg"
+		"ammo" "Depleted Uranium Sabot"
+		"fire effect" "dusg fire"
+		"hit effect" "dusg hit"
+		"inaccuracy" 0.1
+		"velocity" 240
+		"reload" 180
+		"firing heat" 2280
+		"firing energy" 1290
+		"lifetime" 8
+		"shield damage" 1020
+		"hull damage" 1404
+		"hit force" 1013
+	description "While Carbonite ships are typically not touted for their combat prowess, they excel at one thing: Sitting on the back line and pelting their targets with extremely potent and corrosive Depleted Uranium sabot shells."
+
+
+effect "dusg fire"
+	sprite "effects/"
+
+
+effect "dusg hit"
+	sprite "effects/"
