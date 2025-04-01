@@ -42,18 +42,18 @@ shipyard "Carbonite"
 outfitter "Fissionite"
 	"Pulsed Plasma Injector"
 	"Pulsed Plasma Injector Turret"
-	`'Rampart' Anti-Missile`
-	`'Arrestor' Missile`
-	`'Arrestor' Missile Rack`
-	`'Arrestor' Missile Launcher`
-	`'Arrestor' Missile Pod`
+	`"Rampart" Anti-Missile`
+	`"Arrestor" Missile`
+	`"Arrestor" Missile Rack`
+	`"Arrestor" Missile Launcher`
+	`"Arrestor" Missile Pod`
 	"Radiative Shielding"
 	"Droplet Radiator"
 	"Active Electronically Scanned Array"
 	"Fissionite Fuel Scoop"
-	`'Sanctified' Fission Reactor`
-	`'Consecreated' Fission Reactor`
-	`'Divination' Battery Pack`
+	`"Sanctified" Fission Reactor`
+	`"Consecrated" Fission Reactor`
+	`"Divination" Battery Pack`
 	"Small Nuclear Engine"
 	"Small Electric Pulsed RCS"
 	"Large Nuclear Engine"
@@ -65,10 +65,10 @@ outfitter "Photonite"
 	"Array Output Beam"
 	"Array Output Beam Turret"
 	"Solar Anti-Missile"
-	`'Dissension' Torpedo`
-	`'Dissension' Torpedo Rack`
-	`'Dissension' Torpedo Launcher`
-	`'Dissension' Torpedo Pod`
+	`"Dissension" Torpedo`
+	`"Dissension" Torpedo Rack`
+	`"Dissension" Torpedo Launcher`
+	`"Dissension" Torpedo Pod`
 	"Solar Shield Generator"
 	"Solar Radiator"
 	"Active Electronically Scanned Array"
@@ -76,7 +76,7 @@ outfitter "Photonite"
 	"Large External Solar Panel"
 	"Solar-Thermal Powerplant"
 	"External Mirror"
-	`'Chimera' Battery`
+	`"Chimera" Battery`
 	"Xenon Ion Engine"
 	"Xenon Ion Steering"
 	"Solar Rifle"
@@ -90,7 +90,7 @@ outfitter "Carbonite"
 	"Depleted Uranium Sabot"
 	"Depleted Uranium Sabot Magazine"
 	"Depleted Uranium Sabot Gun"
-	`'FALSTAFF' Shield`
+	`"FALSTAFF" Shield`
 	"Smokestack"
 	"Active Electronically Scanned Array"
 	"LNG Generator"

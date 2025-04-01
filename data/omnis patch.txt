@@ -59,31 +59,31 @@ outfitter "Illectrae All"
 	"Array Output Beam Turret"
 	"Barrage Autocannon"
 	"Barrage Autocannon Turret"
-	`'Rampart' Anti-Missile`
+	`"Rampart" Anti-Missile`
 	"Solar Anti-Missile"
 	"Automatic Protection System"
 	"APS Dart"
-	`'Arrestor' Missile`
-	`'Arrestor' Missile Rack`
-	`'Arrestor' Missile Launcher`
-	`'Arrestor' Missile Pod`
-	`'Dissension' Torpedo`
-	`'Dissension' Torpedo Rack`
-	`'Dissension' Torpedo Launcher`
-	`'Dissension' Torpedo Pod`
+	`"Arrestor" Missile`
+	`"Arrestor" Missile Rack`
+	`"Arrestor" Missile Launcher`
+	`"Arrestor" Missile Pod`
+	`"Dissension" Torpedo`
+	`"Dissension" Torpedo Rack`
+	`"Dissension" Torpedo Launcher`
+	`"Dissension" Torpedo Pod`
 	"Depleted Uranium Sabot"
 	"Depleted Uranium Sabot Magazine"
 	"Depleted Uranium Sabot Gun"
 	"Radiative Shielding"
 	"Solar Shield Generator"
-	`'FALSTAFF' Shield`
+	`"FALSTAFF" Shield`
 	"Droplet Radiator"
 	"Solar Radiator"
 	"Smokestack"
 	"Active Electronically Scanned Array"
 	"Fissionite Fuel Scoop"
-	`'Sanctified' Fission Reactor`
-	`'Consecreated' Fission Reactor`
+	`"Sanctified" Fission Reactor`
+	`"Consecrated" Fission Reactor`
 	"Small External Solar Panel"
 	"Large External Solar Panel"
 	"Solar-Thermal Powerplant"
@@ -91,9 +91,9 @@ outfitter "Illectrae All"
 	"LNG Generator"
 	"Carbonite Fuel Cell"
 	"Shipbourne Coal Powerplant"
-	`'Divination' Battery Pack`
-	`'Chimera' Battery`
-	"Carbonite Battery Pack`
+	`"Divination" Battery Pack`
+	`"Chimera" Battery`
+	"Carbonite Battery Pack"
 	"Small Nuclear Engine"
 	"Small Electric Pulsed RCS"
 	"Large Nuclear Engine"
@@ -106,3 +106,9 @@ outfitter "Illectrae All"
 	"Burst Laser Rifle"
 	"Solar Rifle"
 	"Flechette Thrower"
+	"Hyperdrive"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Bunk Room"
+	"Small Bunk Room"
+	"Luxury Accommodations"

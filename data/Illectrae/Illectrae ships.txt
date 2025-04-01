@@ -38,12 +38,21 @@ ship "Superfluous"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		
+		`"Divination" Battery Pack` 2
+		`"Rampart" Anti-Missile` 2
+		`"Sanctified" Fission Reactor`
+		"Burst Laser Rifle" 6
+		"Cargo Expansion" 3
+		"Droplet Radiator"
+		Hyperdrive
+		"Radiative Shielding"
+		"Small Electric Pulsed RCS"
+		"Small Nuclear Engine"
 
 	gun
 	gun
-	turret
-	turret
+	turret `"Rampart" Anti-Missile`
+	turret `"Rampart" Anti-Missile`
 	turret
 
 	description "The Fissionites use this vessel as their primary large cargo transport vessel, connecting their three systems via lucrative trade routes for independent captains. Due to Photonite systems separating their territory, moderate defenses are present."
@@ -74,12 +83,23 @@ ship "Mellifluous"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		
+		`"Consecrated" Fission Reactor`
+		`"Divination" Battery Pack` 8
+		`"Rampart" Anti-Missile` 2
+		"Burst Laser Rifle" 22
+		"Droplet Radiator" 2
+		"Fissionite Fuel Scoop"
+		Hyperdrive
+		"Large Electric Pulsed RCS"
+		"Pulsed Plasma Injector Turret" 2
+		"Radiative Shielding"
+		"Small Electric Pulsed RCS"
+		"Small Nuclear Engine"
 
-	turret
-	turret
-	turret
-	turret
+	turret `"Rampart" Anti-Missile`
+	turret `"Rampart" Anti-Missile`
+	turret "Pulsed Plasma Injector Turret"
+	turret "Pulsed Plasma Injector Turret"
 
 	description "A Mellifluous has one purpose: Sacrifice. Fissionites will load this vessel to the brim with batteries and a reactor, fly it to the north, and wait for ion storms to take their electricity with divination. The interior is home to ornate decorations unparalleled by most species."
 
@@ -100,7 +120,7 @@ ship "Voracious"
 		"heat dissipation" 0.55
 		"fuel capacity" 500
 		"cargo space" 20
-		"outfit space" 430
+		"outfit space" 517
 		"engine capacity" 160
 		"weapon capacity" 150
 		weapon
@@ -109,16 +129,27 @@ ship "Voracious"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		
+		`"Arrestor" Missile` 120
+		`"Arrestor" Missile Launcher` 2
+		`"Divination" Battery Pack` 4
+		`"Rampart" Anti-Missile` 2
+		`"Sanctified" Fission Reactor`
+		"Burst Laser Rifle" 8
+		"Droplet Radiator" 2
+		Hyperdrive
+		"Large Electric Pulsed RCS"
+		"Large Nuclear Engine"
+		"Pulsed Plasma Injector" 2
+		"Radiative Shielding"
 
 	gun
 	gun
-	gun
-	gun
-	gun
-	gun
-	turret
-	turret
+	gun "Pulsed Plasma Injector"
+	gun "Pulsed Plasma Injector"
+	gun `"Arrestor" Missile Launcher`
+	gun `"Arrestor" Missile Launcher`
+	turret `"Rampart" Anti-Missile`
+	turret `"Rampart" Anti-Missile`
 
 	description "The Voracious serves as the Fissionite fast-assault ship, providing the council with a deadly strike option should the Photonite Divine Dream pose enough of an existential threat to them."
 
@@ -139,7 +170,7 @@ ship "Pernicious"
 		"heat dissipation" 0.48
 		"fuel capacity" 400
 		"cargo space" 35
-		"outfit space" 516
+		"outfit space" 505
 		"engine capacity" 140
 		"weapon capacity" 210
 		weapon
@@ -148,15 +179,26 @@ ship "Pernicious"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		
+		`"Divination" Battery Pack` 4
+		`"Rampart" Anti-Missile`
+		`"Sanctified" Fission Reactor`
+		"Active Electronically Scanned Array"
+		"Burst Laser Rifle" 12
+		"Droplet Radiator"
+		Hyperdrive
+		"Pulsed Plasma Injector" 4
+		"Pulsed Plasma Injector Turret" 2
+		"Radiative Shielding" 2
+		"Small Electric Pulsed RCS" 2
+		"Small Nuclear Engine"
 
-	gun
-	gun
-	gun
-	gun
-	turret
-	turret
-	turret
+	gun "Pulsed Plasma Injector"
+	gun "Pulsed Plasma Injector"
+	gun "Pulsed Plasma Injector"
+	gun "Pulsed Plasma Injector"
+	turret "Pulsed Plasma Injector Turret"
+	turret "Pulsed Plasma Injector Turret"
+	turret `"Rampart" Anti-Missile`
 
 	description "Where the Voracious serves as a fast-attack vessel, the Pernicious is a steadfast defender designed to hold a position once a beachhead has been established. Slower and bulkier, this vessel can take and dish out a stronger beating."
 
@@ -186,10 +228,20 @@ ship "Loquacious"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		
+		`"Divination" Battery Pack` 4
+		`"Rampart" Anti-Missile` 2
+		`"Sanctified" Fission Reactor`
+		"Bunk Room" 2
+		"Burst Laser Rifle" 28
+		"Droplet Radiator"
+		Hyperdrive
+		"Large Electric Pulsed RCS"
+		"Luxury Accommodations"
+		"Radiative Shielding"
+		"Small Nuclear Engine"
 
-	turret
-	turret
+	turret `"Rampart" Anti-Missile`
+	turret `"Rampart" Anti-Missile`
 
 	description "Similar to the Superfluous, the Loquatious serves to virtually connect the three Fissionite systems via personnel and civilian transport. It is thanks to the well defended and speedy nature of this vessel that they enjoy spending little time in the Photonite systems separating them."
 
@@ -210,7 +262,7 @@ ship "Perspicacious"
 		"heat dissipation" 0.73
 		"fuel capacity" 500
 		"cargo space" 15
-		"outfit space" 160
+		"outfit space" 220
 		"engine capacity" 50
 		"weapon capacity" 80
 		weapon
@@ -219,9 +271,16 @@ ship "Perspicacious"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		
+		`"Divination" Battery Pack` 4
+		`"Sanctified" Fission Reactor`
+		"Burst Laser Rifle"
+		"Droplet Radiator"
+		Hyperdrive
+		"Pulsed Plasma Injector"
+		"Small Electric Pulsed RCS"
+		"Small Nuclear Engine"
 
-	gun
+	gun "Pulsed Plasma Injector"
 	gun
 
 	description "As the Fissionites are the only Illectrae faction to allow independent captains, an entry-level starship was desired. The Perspicacious is now the most commonly-used ship in all of Illectrae space, even more proliferous than the swarming Dreambackers."
@@ -251,12 +310,21 @@ ship "Dreambacker"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		
+		"Array Output Beam Turret"
+		"Cargo Expansion"
+		"External Mirror" 2
+		Hyperdrive
+		"Solar Anti-Missile"
+		"Solar Radiator" 2
+		"Solar Rifle" 5
+		"Solar-Thermal Powerplant"
+		"Xenon Ion Engine"
+		"Xenon Ion Steering"
 
-	gun
-	gun
-	turret
-	turret
+	gun "External Mirror"
+	gun "External Mirror"
+	turret "Solar Anti-Missile"
+	turret "Array Output Beam Turret"
 
 	description "While the Dreamcrater excels at extracting raw materials, the Dreambacker excels at transporting the now-refined resources to The Divine Dream. Thousands of these light transports make the trip every day, each providing one more piece to the exceptionally large puzzle."
 
@@ -285,15 +353,27 @@ ship "Dreamexecutioner"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		
-	gun
-	gun
-	gun
-	gun
-	gun
-	gun
-	turret
-	turret
+		`"Chimera" Battery`
+		`"Dissension" Torpedo` 12
+		`"Dissension" Torpedo Pod` 2
+		"External Mirror" 4
+		Hyperdrive
+		"Solar Anti-Missile" 2
+		"Solar Radiator" 4
+		"Solar Rifle" 13
+		"Solar Shield Generator"
+		"Solar-Thermal Powerplant"
+		"Xenon Ion Engine" 2
+		"Xenon Ion Steering" 2
+
+	gun `"Dissension" Torpedo Pod`
+	gun `"Dissension" Torpedo Pod`
+	gun "External Mirror"
+	gun "External Mirror"
+	gun "External Mirror"
+	gun "External Mirror"
+	turret "Solar Anti-Missile"
+	turret "Solar Anti-Missile"
 	bay "Fighter"
 	bay "Fighter"
 	bay "Fighter"
@@ -321,7 +401,7 @@ ship "Dreamprotector"
 		"heat dissipation" 0.65
 		"fuel capacity" 300
 		"cargo space" 30
-		"outfit space" 260
+		"outfit space" 350
 		"engine capacity" 130
 		"weapon capacity" 120
 		weapon
@@ -330,14 +410,26 @@ ship "Dreamprotector"
 			"hull damage" 360
 			"hit force" 1080
 	outfits
-		
+		`"Chimera" Battery`
+		`"Dissension" Torpedo Pod` 2
+		"Array Output Beam"
+		"External Mirror" 2
+		Hyperdrive
+		"Outfits Expansion"
+		"Solar Anti-Missile"
+		"Solar Radiator" 2
+		"Solar Rifle" 7
+		"Solar Shield Generator"
+		"Solar-Thermal Powerplant"
+		"Xenon Ion Engine" 2
+		"Xenon Ion Steering" 2
 
-	gun
-	gun
-	gun
-	gun
-	gun
-	turret
+	gun "Array Output Beam"
+	gun `"Dissension" Torpedo Pod`
+	gun `"Dissension" Torpedo Pod`
+	gun "External Mirror"
+	gun "External Mirror"
+	turret "Solar Anti-Missile"
 
 	description "The Dreamprotector serves as the backbone of the Photonite defense fleet. Nimble but potent, this ship excels at punching above its weight class. A swarm of Dreamprotectors is a sight no Illectrae wants to face."
 
@@ -355,7 +447,7 @@ ship "Dreamfighter"
 		"bunks" 1
 		"drag" 0.45
 		"heat dissipation" 0.87
-		"outfit space" 110
+		"outfit space" 178
 		"engine capacity" 40
 		"weapon capacity" 50
 		weapon
@@ -364,13 +456,21 @@ ship "Dreamfighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		
+		`"Chimera" Battery`
+		"Array Output Beam"
+		"External Mirror"
+		"Small External Solar Panel" 3
+		"Solar Radiator"
+		"Solar Rifle"
+		"Solar Shield Generator"
+		"Xenon Ion Engine"
+		"Xenon Ion Steering"
 
-	gun
-	gun
-	gun
-	gun
-	gun
+	gun "Array Output Beam"
+	gun "External Mirror"
+	gun "Small External Solar Panel"
+	gun "Small External Solar Panel"
+	gun "Small External Solar Panel"
 
 	description "In spite of The Divine Dream being the largest megastructure any Illectrae are aware of, Photonite's real speciaty is miniaturization, as seen in the widespread use of the Dreamfighter. Where the other factions require bulky housings for their reactors, this vessel can use lightweight photovoltaics to power a nimble, deadly craft."
 
@@ -399,7 +499,7 @@ ship "Dreamcrater"
 			"hull damage" 140
 			"hit force" 420
 	outfits
-		
+		Hyperdrive
 
 	gun
 	gun
@@ -424,7 +524,7 @@ ship "Dreamchaser"
 		"heat dissipation" 0.76
 		"fuel capacity" 300
 		"cargo space" 12
-		"outfit space" 170
+		"outfit space" 268
 		"engine capacity" 60
 		"weapon capacity" 80
 		weapon
@@ -433,13 +533,25 @@ ship "Dreamchaser"
 			"hull damage" 120
 			"hit force" 360
 	outfits
-		
+		`"Chimera" Battery`
+		`"Dissension" Torpedo` 6
+		`"Dissension" Torpedo Pod`
+		"Active Electronically Scanned Array"
+		"Array Output Beam Turret"
+		"External Mirror"
+		Hyperdrive
+		"Large External Solar Panel" 2
+		"Solar Radiator"
+		"Solar Rifle" 2
+		"Solar Shield Generator"
+		"Xenon Ion Engine"
+		"Xenon Ion Steering"
 
-	gun
-	gun
-	gun
-	gun
-	turret
+	gun `"Dissension" Torpedo Pod`
+	gun "External Mirror"
+	gun "Large External Solar Panel"
+	gun "Large External Solar Panel"
+	turret "Array Output Beam Turret"
 
 	description "The Dreamchaser is a lightweight interceptor designed to perform rapid-response against any potential incursions. Cheap and fast, this craft is able to be deployed in numbers should anyone dare to challenge The Divine Dream."
 
@@ -458,7 +570,7 @@ ship "Heaver"
 		"drag" 26.8
 		"heat dissipation" 0.32
 		"cargo space" 1210
-		"outfit space" 360
+		"outfit space" 372
 		"engine capacity" 160
 		"weapon capacity" 60
 		weapon
@@ -467,9 +579,17 @@ ship "Heaver"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		
+		`"FALSTAFF" Shield`
+		"APS Dart" 100
+		"Automatic Protection System"
+		"Carbonite Battery Pack"
+		"Carbonite Fuel Cell"
+		"Flechette Thrower" 14
+		"Kerosene Ion Engine"
+		"Kerosene Ion Steering"
+		Smokestack
 
-	turret
+	turret "Automatic Protection System"
 	turret
 
 	description "The Heaver is the Carbonite's primary intra-system transport vessel, providing heavy lift services delivering enormous amounts of raw material from anywhere in the system."
@@ -490,7 +610,7 @@ ship "Lugger"
 		"heat dissipation" 0.41
 		"fuel capacity" 800
 		"cargo space" 670
-		"outfit space" 480
+		"outfit space" 486
 		"engine capacity" 210
 		"weapon capacity" 120
 		weapon
@@ -499,10 +619,20 @@ ship "Lugger"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		
+		`"FALSTAFF" Shield`
+		"APS Dart" 200
+		"Automatic Protection System" 2
+		"Carbonite Battery Pack"
+		"Carbonite Fuel Cell"
+		"Flechette Thrower" 8
+		Hyperdrive
+		"Kerosene Ion Engine"
+		"Kerosene Ion Steering"
+		"LNG Generator"
+		Smokestack 2
 
-	turret
-	turret
+	turret "Automatic Protection System"
+	turret "Automatic Protection System"
 	turret
 	turret
 
@@ -533,16 +663,27 @@ ship "Incinerator"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		
+		"APS Dart" 200
+		"Active Electronically Scanned Array"
+		"Automatic Protection System" 2
+		"Barrage Autocannon" 3
+		"Barrage Autocannon Turret" 2
+		"Carbonite Battery Pack"
+		"Carbonite Fuel Cell" 2
+		"Flechette Thrower" 32
+		Hyperdrive
+		"Kerosene Ion Engine"
+		"Kerosene Ion Steering"
+		Smokestack 2
 
+	gun "Barrage Autocannon"
+	gun "Barrage Autocannon"
+	gun "Barrage Autocannon"
 	gun
-	gun
-	gun
-	gun
-	turret
-	turret
-	turret
-	turret
+	turret "Barrage Autocannon Turret"
+	turret "Barrage Autocannon Turret"
+	turret "Automatic Protection System"
+	turret "Automatic Protection System"
 	turret
 	turret
 	turret
@@ -575,15 +716,31 @@ ship "Boiler"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		
+		`"FALSTAFF" Shield`
+		"APS Dart" 200
+		"Active Electronically Scanned Array"
+		"Automatic Protection System" 2
+		"Barrage Autocannon Turret" 2
+		"Carbonite Battery Pack"
+		"Carbonite Fuel Cell"
+		"Depleted Uranium Sabot" 21
+		"Depleted Uranium Sabot Gun"
+		"Depleted Uranium Sabot Magazine"
+		"Flechette Thrower" 19
+		Hyperdrive
+		"Kerosene Ion Engine"
+		"Kerosene Ion Steering"
+		"LNG Generator"
+		"Outfits Expansion" 4
+		Smokestack 2
 
+	gun "Depleted Uranium Sabot Gun"
 	gun
 	gun
-	gun
-	turret
-	turret
-	turret
-	turret
+	turret "Barrage Autocannon Turret"
+	turret "Barrage Autocannon Turret"
+	turret "Automatic Protection System"
+	turret "Automatic Protection System"
 
 	description "Serving to compliment the lumbering Incinerator, the Boiler provides a slightly more nimble platform to deal with the deft Photonite designs. Though less capable than an Incinerator, it still is a formidable and tough vessel."
 
@@ -612,10 +769,20 @@ ship "Steamer"
 			"hull damage" 255
 			"hit force" 765
 	outfits
-		
+		`"FALSTAFF" Shield`
+		"APS Dart" 200
+		"Automatic Protection System" 2
+		"Bunk Room" 2
+		"Carbonite Battery Pack"
+		"Carbonite Fuel Cell"
+		"Flechette Thrower" 36
+		Hyperdrive
+		"Kerosene Ion Engine"
+		"Kerosene Ion Steering"
+		Smokestack
 
-	turret
-	turret
+	turret "Automatic Protection System"
+	turret "Automatic Protection System"
 	turret
 	turret
 

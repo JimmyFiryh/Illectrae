@@ -197,7 +197,7 @@ effect "barrageautocannon hit"
 	sprite "effect/"
 
 
-outfit `'Rampart' Anti-Missile`
+outfit `"Rampart" Anti-Missile`
 	category "Turrets"
 	cost 160000
 	thumbnail "outfit/rampart antimissile"
@@ -293,7 +293,7 @@ effect "aps hit"
 	sprite "effect/"
 
 
-outfit `'Arrestor' Missile`
+outfit `"Arrestor" Missile`
 	category "Ammunition"
 	thumbnail "outfit/arrestormissile"
 	cost 17500
@@ -302,7 +302,7 @@ outfit `'Arrestor' Missile`
 	description "The Arrestor missile is the Fissionite response to fast, agile adversary ships. By bringing nimble opponents to a halt, they can more reliably hit with more potent weaponry."
 
 
-outfit `'Arrestor' Missile Rack`
+outfit `"Arrestor" Missile Rack`
 	category "Ammunition"
 	thumbnail "outfit/arrestorrack"
 	cost 32050
@@ -313,7 +313,7 @@ outfit `'Arrestor' Missile Rack`
 	description "While Arrestor Launchers carry a suitable amount of ammunition in their bespoke magazines, for longer excursions Fissionites use these compact missile racks."
 
 
-outfit `'Arrestor' Missile Launcher`
+outfit `"Arrestor" Missile Launcher`
 	category "Secondary Weapons"
 	thumbnail "outfit/arrestorlauncher"
 	cost 430000
@@ -347,7 +347,7 @@ outfit `'Arrestor' Missile Launcher`
 	description "Speed and agility are the biggest weakness against Fissionite doctine, and this missile aims to put that to rest. By bringing adversary ships down to their speed, they hope to stand a better chance."
 
 
-outfit `'Arrestor' Missile Pod`
+outfit `"Arrestor" Missile Pod`
 	category "Secondary Weapons"
 	thumbnail "outfit/arrestorpod"
 	cost 320000
@@ -390,7 +390,7 @@ effect "arrestor impact"
 	sprite "effects/"
 
 
-outfit `'Dissension' Torpedo`
+outfit `"Dissension" Torpedo`
 	category "Ammunition"
 	thumbnail "outfit/dissensionmissile"
 	cost 22000
@@ -399,7 +399,7 @@ outfit `'Dissension' Torpedo`
 	description "The Dissension torpedo is the Photonite response to heavily shielded adversary ships. By slicing nasty electronic holes in heavy shields, they can punch through with effective hull weaponry."
 
 
-outfit `'Dissension' Torpedo Rack`
+outfit `"Dissension" Torpedo Rack`
 	category "Ammunition"
 	thumbnail "outfit/dissensionrack"
 	cost 42070
@@ -410,7 +410,7 @@ outfit `'Dissension' Torpedo Rack`
 	description "While Dissension Launchers carry a suitable amount of ammunition in their bespoke magazines, for longer excursions Photonites use these compact torpedo racks."
 
 
-outfit `'Dissension' Torpedo Launcher`
+outfit `"Dissension" Torpedo Launcher`
 	category "Secondary Weapons"
 	thumbnail "outfit/dissensionlauncher"
 	cost 550000
@@ -443,7 +443,7 @@ outfit `'Dissension' Torpedo Launcher`
 	description "Photonite researchers, unable to develop weaponry capable of effectively damaging the heavy shielding of their adversaries' vessels, developed this torpedo as a direct bypass to their weak hulls."
 
 
-outfit `'Dissension' Torpedo Pod`
+outfit `"Dissension" Torpedo Pod`
 	category "Secondary Weapons"
 	thumbnail "outfit/dissensionpod"
 	cost 320000
