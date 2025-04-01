@@ -342,7 +342,7 @@ outfit `"Arrestor" Missile Launcher`
 		"optical tracking" 0.6
 		"shield damage" 49
 		"hull damage" 17
-		"slowing damage" 314
+		"slowing damage" 3.14
 		"hit force" 400
 	description "Speed and agility are the biggest weakness against Fissionite doctine, and this missile aims to put that to rest. By bringing adversary ships down to their speed, they hope to stand a better chance."
 
@@ -376,7 +376,7 @@ outfit `"Arrestor" Missile Pod`
 		"optical tracking" 0.6
 		"shield damage" 49
 		"hull damage" 17
-		"slowing damage" 314
+		"slowing damage" 3.14
 		"hit force" 400
 	description "Speed and agility are the biggest weakness against Fissionite doctine, and this missile aims to put that to rest. By bringing adversary ships down to their speed, they hope to stand a better chance."
 	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
@@ -438,7 +438,7 @@ outfit `"Dissension" Torpedo Launcher`
 		"radar tracking" 0.7
 		"shield damage" 120
 		"hull damage" 180
-		"disruption damage" 2120
+		"disruption damage" 21.2
 		"hit force" 210
 	description "Photonite researchers, unable to develop weaponry capable of effectively damaging the heavy shielding of their adversaries' vessels, developed this torpedo as a direct bypass to their weak hulls."
 
@@ -471,7 +471,7 @@ outfit `"Dissension" Torpedo Pod`
 		"radar tracking" 0.7
 		"shield damage" 120
 		"hull damage" 180
-		"disruption damage" 2120
+		"disruption damage" 21.2
 		"hit force" 210
 	description "Photonite researchers, unable to develop weaponry capable of effectively damaging the heavy shielding of their adversaries' vessels, developed this torpedo as a direct bypass to their weak hulls."
 	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
