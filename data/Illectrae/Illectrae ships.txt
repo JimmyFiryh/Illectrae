@@ -166,7 +166,7 @@ ship "Pernicious"
 		"shields" 8300
 		"required crew" 12
 		"bunks" 48
-		"drag" 32.1
+		"drag" 13.5
 		"heat dissipation" 0.48
 		"fuel capacity" 400
 		"cargo space" 35
