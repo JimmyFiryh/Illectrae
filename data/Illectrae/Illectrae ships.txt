@@ -20,7 +20,7 @@ ship "Superfluous"
 	attributes
 		category "Heavy Freighter"
 		"cost" 6743000
-		"mass" 760
+		"mass" 1260
 		"hull" 5400
 		"shields" 9300
 		"required crew" 6
@@ -29,7 +29,7 @@ ship "Superfluous"
 		"heat dissipation" 0.42
 		"fuel capacity" 600
 		"cargo space" 460
-		"outfit space" 370
+		"outfit space" 440
 		"engine capacity" 120
 		"weapon capacity" 115
 		weapon
@@ -39,7 +39,7 @@ ship "Superfluous"
 			"hit force" 1500
 	outfits
 		`"Divination" Battery Pack` 2
-		`"Rampart" Anti-Missile` 2
+		`"Rampart" Anti-Missile` 3
 		`"Sanctified" Fission Reactor`
 		"Burst Laser Rifle" 6
 		"Cargo Expansion" 3
@@ -47,13 +47,13 @@ ship "Superfluous"
 		Hyperdrive
 		"Radiative Shielding"
 		"Small Electric Pulsed RCS"
-		"Small Nuclear Engine"
+		"Small Nuclear Engine" 2
 
 	gun
 	gun
 	turret `"Rampart" Anti-Missile`
 	turret `"Rampart" Anti-Missile`
-	turret
+	turret `"Rampart" Anti-Missile`
 
 	description "The Fissionites use this vessel as their primary large cargo transport vessel, connecting their three systems via lucrative trade routes for independent captains. Due to Photonite systems separating their territory, moderate defenses are present."
 
@@ -171,15 +171,15 @@ ship "Pernicious"
 		"fuel capacity" 400
 		"cargo space" 35
 		"outfit space" 505
-		"engine capacity" 140
-		"weapon capacity" 210
+		"engine capacity" 96
+		"weapon capacity" 184
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		`"Divination" Battery Pack` 4
+		`"Divination" Battery Pack` 2
 		`"Rampart" Anti-Missile`
 		`"Sanctified" Fission Reactor`
 		"Active Electronically Scanned Array"
@@ -189,8 +189,8 @@ ship "Pernicious"
 		"Pulsed Plasma Injector" 4
 		"Pulsed Plasma Injector Turret" 2
 		"Radiative Shielding" 2
-		"Small Electric Pulsed RCS" 2
-		"Small Nuclear Engine"
+		"Small Electric Pulsed RCS"
+		"Small Nuclear Engine" 2
 
 	gun "Pulsed Plasma Injector"
 	gun "Pulsed Plasma Injector"
@@ -228,7 +228,7 @@ ship "Loquacious"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		`"Divination" Battery Pack` 4
+		`"Divination" Battery Pack`
 		`"Rampart" Anti-Missile` 2
 		`"Sanctified" Fission Reactor`
 		"Bunk Room" 2
@@ -238,7 +238,7 @@ ship "Loquacious"
 		"Large Electric Pulsed RCS"
 		"Luxury Accommodations"
 		"Radiative Shielding"
-		"Small Nuclear Engine"
+		"Small Nuclear Engine" 2
 
 	turret `"Rampart" Anti-Missile`
 	turret `"Rampart" Anti-Missile`

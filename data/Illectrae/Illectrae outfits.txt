@@ -35,9 +35,9 @@ outfit "Solar Shield Generator"
 	thumbnail "outfit/solarshield"
 	"mass" 32
 	"outfit space" -32
-	"shield generation" 0.55
-	"shield energy" 0.55
-	"shield heat" 0.3
+	"shield generation" .55
+	"shield energy" .55
+	"shield heat" .3
 	description "If it's possible to make shields dependent on sun strength & distance, do that. If not, make dependent on External Mirrors. Description awaits ability."
 
 
@@ -47,7 +47,7 @@ outfit `"FALSTAFF" Shield`
 	thumbnail "outfit/solarshield"
 	"mass" 54
 	"outfit space" -54
-	"shield generation" 0.6
+	"shield generation" .6
 	"shield energy" 1.4
 	description "Carbonites, heavily reliant on their strong hulls, have made few sore attempts at making effective shield generators. This is one such attempt."
 
@@ -98,8 +98,8 @@ outfit "Active Electronically Scanned Array"
 	"tactical scan power" 45
 	"outfit scan power" 20
 	"outfit scan efficiency" 10
-	"energy consumption" 0.4
-	"heat generation" 0.3
+	"energy consumption" .4
+	"heat generation" .3
 	description "In a rare instance of shared Illectrae technology, this outdated technology uses an array of antennae to scan an entire area without any phyiscal moving components."
 
 
@@ -111,6 +111,20 @@ outfit "Fissionite Fuel Scoop"
 	"outfit space" -12
 	"ramscoop" 1
 	description "While most illectrae have no need for onboard fuel collection, some Fissionite ships fly into the uninhabited Illectron's Dominion to sacrifice, and need to ensure their timely arrival home."
+
+
+outfit "Photonite Fighter Core"
+	category "Systems"
+	cost 1430000
+	thumbnail "outfit/photonitefightercore"
+	"mass" 68
+	"outfit space" -68
+	"energy generation" 1.6
+	"solar heat" -36
+	"heat generation" 22
+	"shield energy" .35
+	"shield generation" .35
+	"shield heat" .2
 
 
 #	Power Generation
@@ -146,8 +160,8 @@ outfit "Small External Solar Panel"
 	thumbnail "outfit/smallphotonitepanel"
 	"mass" 28
 	"outfit space" -10
-	"solar collection" 0.45
-	"solar heat" 0.2
+	"solar collection" .45
+	"solar heat" .2
 	"gun ports" -1
 	weapon
 		"hardpoint sprite" "hardpoint/smallphotonitepanel"
@@ -161,7 +175,7 @@ outfit "Large External Solar Panel"
 	"mass" 84
 	"outfit space" -36
 	"solar collection" 1.75
-	"solar heat" 0.9
+	"solar heat" .9
 	"gun ports" -1
 	weapon
 		"hardpoint sprite" "hardpoint/largephotonitepanel"
@@ -275,7 +289,7 @@ outfit "Small Nuclear Engine"
 	"mass" 36
 	"outfit space" -36
 	"engine capacity" -36
-	"thrust" 47.75
+	"thrust" 37.25
 	"thrusting energy" 3.2
 	"thrusting heat" 6.35
 	"energy generation" 2
@@ -307,7 +321,7 @@ outfit "Large Nuclear Engine"
 	"mass" 106
 	"outfit space" -106
 	"engine capacity" -106
-	"thrust" 164.625
+	"thrust" 131.5
 	"thrusting energy" 10.75
 	"thrusting heat" 24
 	"energy generation" 5.9
@@ -369,7 +383,7 @@ outfit "Kerosene Ion Engine"
 	"mass" 110
 	"outfit space" -110
 	"engine capacity" -110
-	"thrust" 186.25
+	"thrust" 163.75
 	"thrusting energy" 11.2
 	"thrusting heat" 29.7
 	"flare sprite" ""
@@ -400,7 +414,7 @@ outfit "Kerosene-Deuterium Afterburner"
 	"outfit space" -50
 	"engine capacity" -50
 	"afterburner thrust" 255.8
-	"afterburner fuel" 0.9
+	"afterburner fuel" .9
 	"afterburner heat" 54
 	"afterburner effect" "kerosene afterburner"
 	description "To provide even more thrust to the hefty Carbonite ships, engineers decided that dumping even more Kerosene in addition to Deuterium hyperspace fuel would solve the problem."
@@ -437,7 +451,7 @@ outfit "Flechette Thrower"
 	category "Hand to Hand"
 	cost 16300
 	thumbnail "outfit/flechettethrower"
-	"capture attack" 0.7
-	"capture defense" 0.9
+	"capture attack" .7
+	"capture defense" .9
 	"unplunderable" 1
 	description "This archaic by human standards rifle fires small flechette rounds, proving deadly to any between it and its stopping point."

@@ -95,7 +95,7 @@ outfit "Array Output Beam"
 	weapon
 		"sound" "arraybeam"
 		"hit effect" "arraybeam hit"
-		"inaccuracy" 0.2
+		"inaccuracy" .2
 		"velocity" 510
 		"reload" 1
 		"lifetime" 1
@@ -120,7 +120,7 @@ outfit "Array Output Beam Turret"
 		"hit effect" "arraybeam hit"
 		"hardpoint sprite" "hardpoint/arraybeam"
 		"turret turn" 3
-		"inaccuracy" 0.2
+		"inaccuracy" .2
 		"velocity" 510
 		"reload" 1
 		"lifetime" 1
@@ -270,8 +270,8 @@ outfit "Automatic Protection System"
 		"velocity" 35
 		"lifetime" 3
 		"reload" 3
-		"firing heat" 0.9
-		"firing energy" 0.35
+		"firing heat" .9
+		"firing energy" .35
 		"firing force" 22
 	description "This archaic but effective Carbonite anti-missile uses precise algorithm to fire extremely potent flechette rounds at incoming missiles right before impact, While effective, in a prolonged fight sparse ammo reserves can prove deadly."
 
@@ -280,7 +280,7 @@ outfit "APS Dart"
 	category "Ammunition"
 	thumbnail "outfit/apsdart"
 	cost 12
-	mass 0.05
+	mass .05
 	"aps dart capacity" -1
 	description "This relatively small flechette dart is a stark departure from typical laser-based Anti-Missile systems. By being a short-range kinetic penetrator, it can do extremely damage to missiles, guaranteeing destruction against all but the most potent missiles.
 
@@ -297,7 +297,7 @@ outfit `"Arrestor" Missile`
 	category "Ammunition"
 	thumbnail "outfit/arrestormissile"
 	cost 17500
-	mass 0.12
+	mass .12
 	"arrestor capacity" -1
 	description "The Arrestor missile is the Fissionite response to fast, agile adversary ships. By bringing nimble opponents to a halt, they can more reliably hit with more potent weaponry."
 
@@ -339,7 +339,7 @@ outfit `"Arrestor" Missile Launcher`
 		"random lifetime" 5
 		"turn" 4
 		"homing" 4
-		"optical tracking" 0.6
+		"optical tracking" .6
 		"shield damage" 49
 		"hull damage" 17
 		"slowing damage" 3.14
@@ -373,7 +373,7 @@ outfit `"Arrestor" Missile Pod`
 		"random lifetime" 5
 		"turn" 4
 		"homing" 4
-		"optical tracking" 0.6
+		"optical tracking" .6
 		"shield damage" 49
 		"hull damage" 17
 		"slowing damage" 3.14
@@ -394,7 +394,7 @@ outfit `"Dissension" Torpedo`
 	category "Ammunition"
 	thumbnail "outfit/dissensionmissile"
 	cost 22000
-	mass 0.15
+	mass .15
 	"dissension capacity" -1
 	description "The Dissension torpedo is the Photonite response to heavily shielded adversary ships. By slicing nasty electronic holes in heavy shields, they can punch through with effective hull weaponry."
 
@@ -435,7 +435,7 @@ outfit `"Dissension" Torpedo Launcher`
 		"lifetime" 370
 		"turn" 2
 		"homing" 3
-		"radar tracking" 0.7
+		"radar tracking" .7
 		"shield damage" 120
 		"hull damage" 180
 		"disruption damage" 21.2
@@ -468,7 +468,7 @@ outfit `"Dissension" Torpedo Pod`
 		"lifetime" 370
 		"turn" 2
 		"homing" 3
-		"radar tracking" 0.7
+		"radar tracking" .7
 		"shield damage" 120
 		"hull damage" 180
 		"disruption damage" 21.2
@@ -489,7 +489,7 @@ outfit "Depleted Uranium Sabot"
 	category "Ammunition"
 	thumbnail "outfit/dusground"
 	cost 11000
-	mass 0.1
+	mass .1
 	"sabot capacity" -1
 	description "This sub-caliber munition contains multiple discarding sabot elements surrounding the shell. This allows the otherwise ordinary chemical explosion to fire these incredibly dense darts at extremely high speeds."
 
@@ -520,7 +520,7 @@ outfit "Depleted Uranium Sabot Gun"
 		"ammo" "Depleted Uranium Sabot"
 		"fire effect" "dusg fire"
 		"hit effect" "dusg hit"
-		"inaccuracy" 0.1
+		"inaccuracy" .1
 		"velocity" 240
 		"reload" 180
 		"firing heat" 2280
@@ -538,3 +538,63 @@ effect "dusg fire"
 
 effect "dusg hit"
 	sprite "effects/"
+
+
+outfit `"Crater" Plasma Thrower`
+	category "Guns"
+	thumbnail "outfit/craterplasmathrower"
+	cost 235000
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/craterbeam"
+		"sound" "craterbeam"
+		"fire effect" "craterbeam fire"
+		"hit effect" "craterbeam hit"
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 22
+		"reload" 60
+		"firing heat" 152
+		"firing energy" 86
+		"firing force" 25
+		"shield damage" 23
+		"hull damage" 67
+		"minable damage" 347
+	description "A very odd mining device that works by gathering a large amount of solar energy from an external mirror and compacting it into throwable plasma. These plasma balls are calibrated well enough to break open rocks without destroying valuables."
+
+
+effect "craterbeam fire"
+	sprite "effects/"
+
+
+effect "craterbeam hit"
+	sprite "effects/"
+
+
+outfit "Engorger Mining Beam"
+	category "Guns"
+	thumbnail "outfits/engorgerbeam"
+	cost 4360000
+	"mass" 400
+	"outfit space" -400
+	"weapon capacity" -400
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sprite "projectile/engorgerbeam"
+		"sound" "engorgerbeam"
+		"fire effect" "engorgerbeam fire"
+		"hit effect" "engorgerbeam hit"
+		"inaccuracy" .1
+		"velocity" 750
+		"lifetime" 1
+		"reload" 1
+		"firing heat" 93.5
+		"firing energy" 13
+		"shield damage" 4
+		"hull damage" 12.25
+		"minable damage" 146
+	description "An absolutely enormous beam that can surely tear holes through entire planets."
